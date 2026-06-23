@@ -1,0 +1,77 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#050816;
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+.hero{
+padding:50px 20px;
+}
+
+.cover-photo{
+width:250px;
+border-radius:20px;
+box-shadow:0 0 25px pink;
+}
+
+h1{
+font-size:3rem;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:pink;
+cursor:pointer;
+font-size:1rem;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+margin:30px auto;
+padding:30px;
+border-radius:20px;
+max-width:800px;
+backdrop-filter:blur(8px);
+}
+
+.gallery img{
+width:250px;
+margin:10px;
+border-radius:15px;
+transition:.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+#hiddenHeart{
+position:fixed;
+bottom:10px;
+right:15px;
+font-size:25px;
+cursor:pointer;
+}
+
+.heart{
+position:fixed;
+font-size:25px;
+animation:float 4s linear forwards;
+pointer-events:none;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0);
+opacity:1;
+}
+100%{
+transform:translateY(-500px);
+opacity:0;
+}
+}
