@@ -9,7 +9,7 @@ document.getElementById("secretMessage").innerHTML =
 "Just kidding. I love you ❤️";
 }
 
-const startDate = new Date("2025-01-23");
+const startDate = new Date("2026-01-23");
 
 const today = new Date();
 
